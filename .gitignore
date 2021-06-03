@@ -71,31 +71,4 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-The  Great Fleece/.vsconfig
-The  Great Fleece/Assets/Scenes.meta
-The  Great Fleece/Assets/Scenes/SampleScene.unity
-The  Great Fleece/Assets/Scenes/SampleScene.unity.meta
-The  Great Fleece/Logs/Packages-Update.log
-The  Great Fleece/Packages/manifest.json
-The  Great Fleece/Packages/packages-lock.json
-The  Great Fleece/ProjectSettings/AudioManager.asset
-The  Great Fleece/ProjectSettings/ClusterInputManager.asset
-The  Great Fleece/ProjectSettings/DynamicsManager.asset
-The  Great Fleece/ProjectSettings/EditorBuildSettings.asset
-The  Great Fleece/ProjectSettings/EditorSettings.asset
-The  Great Fleece/ProjectSettings/GraphicsSettings.asset
-The  Great Fleece/ProjectSettings/InputManager.asset
-The  Great Fleece/ProjectSettings/NavMeshAreas.asset
-The  Great Fleece/ProjectSettings/PackageManagerSettings.asset
-The  Great Fleece/ProjectSettings/Physics2DSettings.asset
-The  Great Fleece/ProjectSettings/PresetManager.asset
-The  Great Fleece/ProjectSettings/ProjectSettings.asset
-The  Great Fleece/ProjectSettings/ProjectVersion.txt
-The  Great Fleece/ProjectSettings/QualitySettings.asset
-The  Great Fleece/ProjectSettings/TagManager.asset
-The  Great Fleece/ProjectSettings/TimeManager.asset
-The  Great Fleece/ProjectSettings/UnityConnectSettings.asset
-The  Great Fleece/ProjectSettings/VersionControlSettings.asset
-The  Great Fleece/ProjectSettings/VFXManager.asset
-The  Great Fleece/ProjectSettings/XRSettings.asset
-The  Great Fleece/UserSettings/EditorUserSettings.asset
+The  Great Fleece/Assets/The Great Fleece/Game/_Scenes/Learning/Environment_Finished/LightingData.asset.meta
