@@ -800,3 +800,27 @@ Received Import Request.
 Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Level/Doors.fbm/DoorTextureAmbient_Occlusion.png using Guid(83c03fbd4593b48cf92707ce344b1f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419c2412b3466a11f62e0e99c720bc60') in 0.004449 seconds
   Import took 0.006661 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.9 MB.
+System memory in use after: 74.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1767.
+Total: 1.586300 ms (FindLiveObjects: 0.137400 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.339400 ms  DeleteObjects: 0.069900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
