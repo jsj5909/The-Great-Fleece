@@ -1,0 +1,689 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jsj59/OneDrive/Documents/GitHub/The-Great-Fleece/The-Great-Fleece/The  Great Fleece
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52237
+Successfully changed project path to: C:/Users/jsj59/OneDrive/Documents/GitHub/The-Great-Fleece/The-Great-Fleece/The  Great Fleece
+C:/Users/jsj59/OneDrive/Documents/GitHub/The-Great-Fleece/The-Great-Fleece/The  Great Fleece
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jsj59/OneDrive/Documents/GitHub/The-Great-Fleece/The-Great-Fleece/The  Great Fleece/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001419 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000686 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1274 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1726.
+Total: 2.234000 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.317900 ms MarkObjects: 1.452900 ms  DeleteObjects: 0.283300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/The Great Fleece/Cinemachine
+  artifactKey: Guid(75384882a0a844ef78248bc722f7fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Cinemachine using Guid(75384882a0a844ef78248bc722f7fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7b03323b465639d499b46899134f6c') in 0.003333 seconds
+  Import took 0.005365 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.618 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.2 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 1.591500 ms (FindLiveObjects: 0.131400 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.178600 ms  DeleteObjects: 0.241800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.573470 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles
+  artifactKey: Guid(8570f7a07e1b94d7db4e457e66df91d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles using Guid(8570f7a07e1b94d7db4e457e66df91d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a83f203ac4d63fef66c6f393cad1ba') in 0.003063 seconds
+  Import took 0.004667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007509 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles
+  artifactKey: Guid(8570f7a07e1b94d7db4e457e66df91d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles using Guid(8570f7a07e1b94d7db4e457e66df91d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a83f203ac4d63fef66c6f393cad1ba') in 0.001311 seconds
+  Import took 0.003000 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1289 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 75.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1782.
+Total: 2.002000 ms (FindLiveObjects: 0.128100 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.173800 ms  DeleteObjects: 0.660000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1904.
+Total: 2.376600 ms (FindLiveObjects: 0.166200 ms CreateObjectMapping: 0.056900 ms MarkObjects: 1.378300 ms  DeleteObjects: 0.774100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.802557 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae40dfb458ca1227795b6759d892535') in 0.034137 seconds
+  Import took 0.036177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.722026 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset
+  artifactKey: Guid(1424e5ab37c0046868c6691a0d72cb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset using Guid(1424e5ab37c0046868c6691a0d72cb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cf62f6956f7611449983f4fb342895') in 0.011631 seconds
+  Import took 0.013654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001755 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset
+  artifactKey: Guid(1424e5ab37c0046868c6691a0d72cb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset using Guid(1424e5ab37c0046868c6691a0d72cb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cf62f6956f7611449983f4fb342895') in 0.003233 seconds
+  Import took 0.005241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.648839 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfefe7aec5054b9ba20e4b72da2e901') in 0.007882 seconds
+  Import took 0.009954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.214343 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b28d4337489648c2cf5f8d7fa45bf65') in 0.002997 seconds
+  Import took 0.005281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.276724 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaf786cf492bec041a642aacad9e722') in 0.002827 seconds
+  Import took 0.004936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.776891 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2b95e61c35d8b6a069d49f018419d4') in 0.003837 seconds
+  Import took 0.006016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.512711 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap66.242.17.png
+  artifactKey: Guid(792627eebc75e41898fbc2419ff1dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap66.242.17.png using Guid(792627eebc75e41898fbc2419ff1dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8943f55a3aacd00b271222b34945d8bf') in 0.056327 seconds
+  Import took 0.058434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Level/ExtraColumns.fbm/BlackMarbleColumn.jpg
+  artifactKey: Guid(83ee2673f715f2f438d3ecba5053c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Level/ExtraColumns.fbm/BlackMarbleColumn.jpg using Guid(83ee2673f715f2f438d3ecba5053c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8027675fd53354feee3efbeb57dbe8') in 0.006612 seconds
+  Import took 0.008578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Level/Pillars.fbm/BlackMarbleColumn.png
+  artifactKey: Guid(9a8c0fd67af4a45a4bf84ed869b73198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Level/Pillars.fbm/BlackMarbleColumn.png using Guid(9a8c0fd67af4a45a4bf84ed869b73198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a5db5eafdcd209400a23ad457fa359') in 0.005674 seconds
+  Import took 0.007565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap67.54.png
+  artifactKey: Guid(c9105a75d53df4e81b57f993aeace54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap67.54.png using Guid(c9105a75d53df4e81b57f993aeace54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcb30dd6e212d5d397d5acf04d4975a') in 0.004928 seconds
+  Import took 0.006844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/APS507.png
+  artifactKey: Guid(e0e6ea3a292774f878e25d92699f4c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/APS507.png using Guid(e0e6ea3a292774f878e25d92699f4c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988ea58909cad72d05f641107341c9fb') in 0.004892 seconds
+  Import took 0.006761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Level/Walls.fbm/BlackMarbleColumn.jpg
+  artifactKey: Guid(5cad47fdcb5698240a4fcbf9931a4c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Level/Walls.fbm/BlackMarbleColumn.jpg using Guid(5cad47fdcb5698240a4fcbf9931a4c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86d51f42caf7c2693499542862fad82') in 0.004932 seconds
+  Import took 0.007141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap1970.58.png
+  artifactKey: Guid(1303ccdf36f7f4388a731cb754f2b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap1970.58.png using Guid(1303ccdf36f7f4388a731cb754f2b948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc28f42ec22c820c7cdece21ec49ba41') in 0.005490 seconds
+  Import took 0.007440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap98.14.png
+  artifactKey: Guid(0f72b563cc85642edb8a4d83761aa3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap98.14.png using Guid(0f72b563cc85642edb8a4d83761aa3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cdd6cf5eb795d0aff2b1c4ec1205f1') in 0.004947 seconds
+  Import took 0.006942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap66.242.17.png
+  artifactKey: Guid(792627eebc75e41898fbc2419ff1dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Models/Dont_Touch/Textures/Paintings/ap66.242.17.png using Guid(792627eebc75e41898fbc2419ff1dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8943f55a3aacd00b271222b34945d8bf') in 0.004537 seconds
+  Import took 0.006684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.373445 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdac322698d040d8ba30e0937343672a') in 0.010161 seconds
+  Import took 0.012498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 272.917242 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cf62d3d602dbbd359fd055bdf771a8') in 0.004462 seconds
+  Import took 0.008585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cf62d3d602dbbd359fd055bdf771a8') in 0.003452 seconds
+  Import took 0.007201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.843426 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd371a1c09c308bd7a575d44678bb88bc') in 0.004366 seconds
+  Import took 0.008284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.248026 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbbdafd73fe55abdbac2281965a8e04') in 0.002932 seconds
+  Import took 0.005917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.321328 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b3fa62ecfb14c47c392edc3dec8309') in 0.003071 seconds
+  Import took 0.006081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004063 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b3fa62ecfb14c47c392edc3dec8309') in 0.004814 seconds
+  Import took 0.007641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814361 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 2.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 2.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d236b57dc8dd0921a9dd52061a4833d') in 0.003209 seconds
+  Import took 0.005509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 2.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 2.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d236b57dc8dd0921a9dd52061a4833d') in 0.002795 seconds
+  Import took 0.005325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561008 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 3.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 3.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713093c4b11e8a646310d81f262d0aa8') in 0.003010 seconds
+  Import took 0.005180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005022 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 3.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 3.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713093c4b11e8a646310d81f262d0aa8') in 0.003412 seconds
+  Import took 0.006711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.026429 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babc10f8348865e12c89682352ed5e59') in 0.003764 seconds
+  Import took 0.006065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babc10f8348865e12c89682352ed5e59') in 0.003487 seconds
+  Import took 0.005497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.877707 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 2.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 2.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14675c6d7afb32895d810fccab265ac2') in 0.002877 seconds
+  Import took 0.005081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003534 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 2.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 2.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14675c6d7afb32895d810fccab265ac2') in 0.003148 seconds
+  Import took 0.005408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.525324 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Hallway_Profile.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Hallway_Profile.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b140870dc44c29be1ba178374b16b9') in 0.002936 seconds
+  Import took 0.005575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Hallway_Profile.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Hallway_Profile.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b140870dc44c29be1ba178374b16b9') in 0.003124 seconds
+  Import took 0.005390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.859471 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Depth_Of_Field_Hallway_Profile.asset
+  artifactKey: Guid(53a6497bbb27a47419130bda002a8a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Depth_Of_Field_Hallway_Profile.asset using Guid(53a6497bbb27a47419130bda002a8a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f5a5bf7486d8099e5ed90dde11ff7a') in 0.002671 seconds
+  Import took 0.005302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007548 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Depth_Of_Field_Hallway_Profile.asset
+  artifactKey: Guid(53a6497bbb27a47419130bda002a8a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Depth_Of_Field_Hallway_Profile.asset using Guid(53a6497bbb27a47419130bda002a8a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f5a5bf7486d8099e5ed90dde11ff7a') in 0.002282 seconds
+  Import took 0.004675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.144694 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Hallway_Profile.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Hallway_Profile.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e6f92cc61d3f8267999158890d573a') in 0.003859 seconds
+  Import took 0.006075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.113610 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Depth_Of_Field_Hallway_Profile.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Depth_Of_Field_Hallway_Profile.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8058fef9f0292f8fd5dee59a060dbd93') in 0.003902 seconds
+  Import took 0.007697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.730899 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df4e48b3e11d02a29f024cee160c77') in 0.002854 seconds
+  Import took 0.005767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.753704 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 3.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 3.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a68eef95571ed81c3602531bf614f6') in 0.003226 seconds
+  Import took 0.006272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 3.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 3.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a68eef95571ed81c3602531bf614f6') in 0.003322 seconds
+  Import took 0.005743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.149382 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile1.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile1.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1180755afd6b993f2156c576b2cd551b') in 0.003086 seconds
+  Import took 0.005517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.073592 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile.asset
+  artifactKey: Guid(280fa7a8d931e459da21c5ec3442c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile.asset using Guid(280fa7a8d931e459da21c5ec3442c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8cec834dfef9bd1db993cde562d09f') in 0.002638 seconds
+  Import took 0.005241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003738 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile.asset
+  artifactKey: Guid(280fa7a8d931e459da21c5ec3442c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile.asset using Guid(280fa7a8d931e459da21c5ec3442c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8cec834dfef9bd1db993cde562d09f') in 0.002647 seconds
+  Import took 0.005168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.466584 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile1.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile1.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e72a5472ff6d2f6093be56dbc4ae41') in 0.003009 seconds
+  Import took 0.005653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.189373 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile1.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile1.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9ea7aedf63acfb47857a107d7329f1') in 0.003050 seconds
+  Import took 0.005498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.719118 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c9098dcd5bf40ded74f30ca5cd4eae') in 0.002872 seconds
+  Import took 0.005121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.520277 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Captured_Cutscene_Profile.asset
+  artifactKey: Guid(8c519d2ef0df3488784d04e763bca864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Captured_Cutscene_Profile.asset using Guid(8c519d2ef0df3488784d04e763bca864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e2df013c16141b5a87b3358ef53655') in 0.002359 seconds
+  Import took 0.004678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003563 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Captured_Cutscene_Profile.asset
+  artifactKey: Guid(8c519d2ef0df3488784d04e763bca864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Captured_Cutscene_Profile.asset using Guid(8c519d2ef0df3488784d04e763bca864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e2df013c16141b5a87b3358ef53655') in 0.002221 seconds
+  Import took 0.004776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.677768 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc26b54713881df5bcdc309b83bf1da2') in 0.003241 seconds
+  Import took 0.005936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset
+  artifactKey: Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile.asset using Guid(7c94aa98bbdcaf04db05dd3ea5301aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc26b54713881df5bcdc309b83bf1da2') in 0.003290 seconds
+  Import took 0.005469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.725441 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_Profile_1 1.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171b587e9e5e8f3c113b13137f94c9d0') in 0.003201 seconds
+  Import took 0.005737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.058268 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Captured_Cutscene_Profile.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Captured_Cutscene_Profile.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de69aee325312f8bf1f14f4aebbf50a') in 0.003066 seconds
+  Import took 0.007162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001726 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Captured_Cutscene_Profile.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Captured_Cutscene_Profile.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de69aee325312f8bf1f14f4aebbf50a') in 0.003734 seconds
+  Import took 0.007359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.969273 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/CapturedCutscene_Profile.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/CapturedCutscene_Profile.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286212c8912f08958bfd50471ed9bfab') in 0.003339 seconds
+  Import took 0.005778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/CapturedCutscene_Profile.asset
+  artifactKey: Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/CapturedCutscene_Profile.asset using Guid(732b4cb965dc9fe498cce3f2cbe45bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286212c8912f08958bfd50471ed9bfab') in 0.003424 seconds
+  Import took 0.005960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.892057 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Depth_Of_Field_Hallway_Profile.asset
+  artifactKey: Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Depth_Of_Field_Hallway_Profile.asset using Guid(62aa1a7fa6a5a814db78005d600f3c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cfe9fcda818bd07b5ae50e49069f45') in 0.003338 seconds
+  Import took 0.006144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.431277 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_With_Depth_Of_Field_Profile.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cd291929eb6178018b2075ec0211d2') in 0.003556 seconds
+  Import took 0.005528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.570341 seconds.
+  path: Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_ProfileDOF.asset
+  artifactKey: Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/Post_Processing_Profiles/Main_ProfileDOF.asset using Guid(c8c40bb1d5b95214399a7ebe74a77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c1b82242883f17c961b181433450cb') in 0.003429 seconds
+  Import took 0.006288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.389544 seconds.
+  path: Assets/The Great Fleece/Game/_Scenes/Main.unity
+  artifactKey: Guid(9b026484f43ebc14f85fe756ec990657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/Game/_Scenes/Main.unity using Guid(9b026484f43ebc14f85fe756ec990657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cf24b176b29712b4ab192ac58ad2c8') in 0.001824 seconds
+  Import took 0.004526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.333052 seconds.
+  path: Assets/The Great Fleece/PostProcessing
+  artifactKey: Guid(55ddae2dfb082466ab81b47e3d9af3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Great Fleece/PostProcessing using Guid(55ddae2dfb082466ab81b47e3d9af3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399651952954d0420aba4e32a6b3114e') in 0.001602 seconds
+  Import took 0.003972 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.626 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1356 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 78.7 MB.
+
+Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 2.033700 ms (FindLiveObjects: 0.126100 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.170800 ms  DeleteObjects: 0.698700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.627590 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a24da45bbb7b203720eee7aed125100') in 0.015429 seconds
+  Import took 0.018087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002260 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a24da45bbb7b203720eee7aed125100') in 0.001573 seconds
+  Import took 0.004660 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
