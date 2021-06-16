@@ -1951,10 +1951,10 @@ PlayableDirector:
     value: {fileID: 1019766581}
   - key: {fileID: 8731955497249095560, guid: df5108b2331ffbb4e914a23d753d8aeb, type: 2}
     value: {fileID: 111052870}
-  - key: {fileID: 1318494804970596938, guid: df5108b2331ffbb4e914a23d753d8aeb, type: 2}
-    value: {fileID: 857988051}
   - key: {fileID: -21511600695910423, guid: df5108b2331ffbb4e914a23d753d8aeb, type: 2}
     value: {fileID: 1043827151}
+  - key: {fileID: -3522591856558847499, guid: df5108b2331ffbb4e914a23d753d8aeb, type: 2}
+    value: {fileID: 857988051}
   m_ExposedReferences:
     m_References:
     - 463811684b1593c4da508d6c8b601e16: {fileID: 1019766580}
@@ -22224,7 +22224,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019766578}
-  m_LocalRotation: {x: 0.12584007, y: -0.24039394, z: 0.031447127, w: 0.9619699}
+  m_LocalRotation: {x: 0.1273203, y: 0.23861969, z: -0.031574234, w: 0.96221274}
   m_LocalPosition: {x: -3.7, y: 1.58, z: -94.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -22668,7 +22668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1043827147
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31362,7 +31362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!320 &1590034631
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -43354,7 +43354,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043896029}
-  m_LocalRotation: {x: 0.29186112, y: -0.55754614, z: 0.07293539, w: -0.54623455}
+  m_LocalRotation: {x: 0.12584007, y: -0.24039394, z: 0.031447127, w: 0.96221274}
   m_LocalPosition: {x: 7.6753206, y: 1.1639352, z: -90.07074}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
