@@ -3,8 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+
+
+
+
+
 public class Player : MonoBehaviour
 {
+    [SerializeField] private GameObject _coinPrefab;
+
+
     NavMeshAgent _agent;
 
     Animator _animator;
@@ -46,6 +54,20 @@ public class Player : MonoBehaviour
         if (Vector3.Distance(transform.position, _target) < 1)
         {
             _animator.SetBool("Walk", false);
+        }
+
+        if(Input.GetMouseButtonDown(1))
+        {
+            Vector3 position = Input.mousePosition;
+
+            Ray rayOrigin = Camera.main.ScreenPointToRay(position);
+
+            RaycastHit hitInfo;
+
+            if(Physics.Raycast(rayOrigin,out hitInfo))
+            {
+                Instantiate(_coinPrefab, hitInfo.point, Quaternion.identity);
+            }
         }
 
     }
