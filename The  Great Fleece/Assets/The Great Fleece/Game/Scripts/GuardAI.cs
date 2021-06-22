@@ -8,6 +8,8 @@ public class GuardAI : MonoBehaviour
     [SerializeField]
     List<Transform> _waypoints;
 
+    
+
     Animator _animator;
 
     NavMeshAgent _agent;
@@ -56,12 +58,18 @@ public class GuardAI : MonoBehaviour
     {
         if (_waypoints.Count > 0)
         {
-
+            
             if (_waypoints[_currentTarget] != null)
             {
 
                 if ((Vector3.Distance(transform.position, _waypoints[_currentTarget].position) < 1) && (_targetReached == false))
                 {
+                    if(_waypoints.Count ==1)
+                    {
+                        _animator.SetBool("Walk", false);
+                        return;
+                    }
+                    
                     _targetReached = true;
 
                    
@@ -132,4 +140,6 @@ public class GuardAI : MonoBehaviour
         _agent.SetDestination(_waypoints[_currentTarget].position);
         _animator.SetBool("Walk", true);
     }
+
+   
 }

@@ -6,7 +6,7 @@ public class LookAtPlayer : MonoBehaviour
 {
     GameObject _player;
 
-   
+    public Transform startCamera;
     
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,8 @@ public class LookAtPlayer : MonoBehaviour
         {
             Debug.LogError("Player is Null");
         }
-
+        transform.position = startCamera.position;
+        transform.rotation = startCamera.rotation;
        
 
     }
