@@ -8,7 +8,9 @@ public class GuardAI : MonoBehaviour
     [SerializeField]
     List<Transform> _waypoints;
 
-    
+    public bool movingToCoin = false;
+
+    public Vector3 coinLocation;
 
     Animator _animator;
 
@@ -56,23 +58,33 @@ public class GuardAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (movingToCoin == true)
+        {
+            if ((Vector3.Distance(transform.position, coinLocation) < 2.5))
+            {
+                StartCoroutine(WaitBeforeMoving());
+                movingToCoin = false;
+
+            }
+        }
+        else
         if (_waypoints.Count > 0)
         {
-            
+
             if (_waypoints[_currentTarget] != null)
             {
 
                 if ((Vector3.Distance(transform.position, _waypoints[_currentTarget].position) < 1) && (_targetReached == false))
                 {
-                    if(_waypoints.Count ==1)
+                    if (_waypoints.Count == 1)
                     {
                         _animator.SetBool("Walk", false);
                         return;
                     }
-                    
+
                     _targetReached = true;
 
-                   
+
 
 
                     if (_reverse == false)
@@ -89,23 +101,23 @@ public class GuardAI : MonoBehaviour
                         _reverse = true;
                         _currentTarget--;
                     }
-                    if(_currentTarget < 0)
+                    if (_currentTarget < 0)
                     {
                         _reverse = false;
                         _currentTarget++;
                     }
-                //    if (_waypoints[_currentTarget] != null)
-                //    {
-                 //      (if(_wait))
-                       
-                        
+                    //    if (_waypoints[_currentTarget] != null)
+                    //    {
+                    //      (if(_wait))
+
+
                     //    _agent.SetDestination(_waypoints[_currentTarget].position);
-                        
-                   // }
+
+                    // }
                 }
-                if(_targetReached == true)
+                if (_targetReached == true)
                 {
-                    if (_currentTarget-1 == 0 || (_currentTarget+1 == _waypoints.Count - 1))
+                    if (_currentTarget - 1 == 0 || (_currentTarget + 1 == _waypoints.Count - 1))
                     {
                         if (_waiting == false)
                         {
@@ -141,5 +153,9 @@ public class GuardAI : MonoBehaviour
         _animator.SetBool("Walk", true);
     }
 
-   
+    public void StartWalking()
+    {
+        _animator.SetBool("Walk", true);
+    }
+
 }

@@ -11,7 +11,9 @@ using UnityEngine.AI;
 public class Player : MonoBehaviour
 {
     [SerializeField] private GameObject _coinPrefab;
+    [SerializeField] private AudioClip _coinSoundEffect;
 
+    private bool _coinTossed = false;
 
     NavMeshAgent _agent;
 
@@ -58,17 +60,48 @@ public class Player : MonoBehaviour
 
         if(Input.GetMouseButtonDown(1))
         {
-            Vector3 position = Input.mousePosition;
-
-            Ray rayOrigin = Camera.main.ScreenPointToRay(position);
-
-            RaycastHit hitInfo;
-
-            if(Physics.Raycast(rayOrigin,out hitInfo))
+            
+            
+            if (_coinTossed == false)
             {
-                Instantiate(_coinPrefab, hitInfo.point, Quaternion.identity);
+                _animator.SetTrigger("Throw");
+
+                Vector3 position = Input.mousePosition;
+
+                Ray rayOrigin = Camera.main.ScreenPointToRay(position);
+
+                RaycastHit hitInfo;
+
+                if (Physics.Raycast(rayOrigin, out hitInfo))
+                {
+                    Instantiate(_coinPrefab, hitInfo.point, Quaternion.identity);
+
+                    AudioSource.PlayClipAtPoint(_coinSoundEffect, transform.position);
+
+                    _coinTossed = true;
+
+                    SendAIToCoin(hitInfo.point);
+                   
+
+                }
+                
             }
         }
 
+    }
+
+    private void SendAIToCoin(Vector3 location)
+    {
+        GuardAI[] guards = FindObjectsOfType<GuardAI>();
+
+        foreach (GuardAI guard in guards)
+        {
+            NavMeshAgent nav = guard.GetComponent<NavMeshAgent>();
+            nav.SetDestination(location);
+            guard.movingToCoin = true;
+            guard.coinLocation = location;
+            guard.StartWalking();
+        }
+            
     }
 }
