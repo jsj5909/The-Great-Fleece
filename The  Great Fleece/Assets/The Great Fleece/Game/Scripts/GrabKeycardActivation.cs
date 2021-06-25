@@ -14,6 +14,12 @@ public class GrabKeycardActivation : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             _sleepingGuardCutscene.SetActive(true);
+
+            GameManager.Instance.HasCard = true;
+        }
+        else
+        {
+            Debug.Log("You must grab the keycard");
         }
     }
 
