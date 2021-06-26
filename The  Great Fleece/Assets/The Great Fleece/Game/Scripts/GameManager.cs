@@ -35,11 +35,9 @@ public class GameManager : MonoBehaviour
         {
             if(pd.isActiveAndEnabled)
             {
-               // pd.gameObject.SetActive(false);
+               
 
-               // Camera.main.GetComponent<LookAtPlayer>().CameraStart();
-
-                pd.time = 60;
+                pd.time = 59.45;
 
                     }
         }

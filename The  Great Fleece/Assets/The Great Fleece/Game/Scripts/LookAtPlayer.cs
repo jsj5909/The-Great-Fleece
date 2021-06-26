@@ -6,16 +6,16 @@ public class LookAtPlayer : MonoBehaviour
 {
     GameObject _player;
 
-    public Transform startCamera;
+    public Transform _startCamera;
 
-    private Transform _initialPos;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         _player = GameObject.Find("Player");
 
-        _initialPos = startCamera;
+        
 
         if(_player == null)
         {
@@ -34,7 +34,7 @@ public class LookAtPlayer : MonoBehaviour
 
     public void CameraStart()
     {
-        transform.position = _initialPos.position;
-        transform.rotation = _initialPos.rotation;
+        transform.position = _startCamera.position;
+        transform.rotation = _startCamera.rotation;
     }
 }
