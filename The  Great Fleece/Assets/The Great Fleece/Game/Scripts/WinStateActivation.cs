@@ -27,6 +27,10 @@ public class WinStateActivation : MonoBehaviour
             {
                 _winCutScene.SetActive(true);
             }
+            else
+            {
+                Debug.Log("You must grab the keycard");
+            }
         }
     }
 

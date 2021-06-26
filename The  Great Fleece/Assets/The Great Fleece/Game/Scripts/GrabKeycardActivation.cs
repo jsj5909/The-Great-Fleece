@@ -7,7 +7,7 @@ public class GrabKeycardActivation : MonoBehaviour
     // Start is called before the first frame update
 
     [SerializeField] GameObject _sleepingGuardCutscene;
-
+    [SerializeField] Collider colliderTrigger;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,12 +15,11 @@ public class GrabKeycardActivation : MonoBehaviour
         {
             _sleepingGuardCutscene.SetActive(true);
 
+            colliderTrigger.enabled = false;
+
             GameManager.Instance.HasCard = true;
         }
-        else
-        {
-            Debug.Log("You must grab the keycard");
-        }
+        
     }
 
 }
